@@ -4,11 +4,12 @@ body{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 h1{
     font-size: 50px;
 }
-.name-color{
+.orange-color{
     color: orange;
 }
 .half-width{
@@ -23,4 +24,43 @@ h1{
 .top-banner{
     background-repeat: no-repeat;
     background-image:url("img/top-banner.png");
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+.bottom-banner{
+    background-repeat: no-repeat;
+    background-image:url("img/dream-bg.png");
+    background-position: right;
+}
+.single-experiences{
+    background-color: white;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.experiences-area{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(150deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
 }
